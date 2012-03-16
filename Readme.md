@@ -1,7 +1,6 @@
 # splat
 
-> render templates in your express apps
-> soon you will also be able to stream them
+> render templates in your express apps (streaming coming soon)
 
 ## example
 
