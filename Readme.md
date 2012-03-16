@@ -8,7 +8,7 @@
 var splat = require('splat'),
     app = require('express')();
 
-// configure express to use splate
+// configure express to use splat
 app.configure(function(){
   // templates location
   app.set('views', 'templates');
