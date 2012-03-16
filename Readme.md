@@ -1,7 +1,6 @@
 # splat
 
-> render templates in your express apps
-> soon you will also be able to stream them
+> render templates in your express apps (streaming coming soon)
 
 ## example
 
@@ -9,7 +8,7 @@
 var splat = require('splat'),
     app = require('express')();
 
-// configure express to use splate
+// configure express to use splat
 app.configure(function(){
   // templates location
   app.set('views', 'templates');
