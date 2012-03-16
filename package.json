@@ -1,0 +1,25 @@
+{
+  "author": "Mihai Tomescu <matomesc@gmail.com> (https://github.com/matomesc)",
+  "name": "splat",
+  "description": "render mustache templates in express",
+  "version": "0.0.0",
+  "homepage": "https://github.com/matomesc/splat",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:matomesc/splat.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -R spec"
+  },
+  "dependencies": {
+    "mustache": "0.4.x"
+  },
+  "devDependencies": {
+    "mocha": "0.14.x"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
