@@ -25,9 +25,8 @@ exports.render = function render(_path, options, fn) {
       return fs.readFile(layoutPath, 'utf8', function (err, data) {
         return fn(null, mustache.to_html(data, { body: html }));
       });
-    } else {
-      return fn(null, html);
     }
+    return fn(null, html);
   });
 };
 
